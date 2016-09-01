@@ -43,7 +43,7 @@ Era repositories kommer att ligga på adresserna:
    Låt `s = (a+b+c)/2` och `A = sqrt(s*(s-a)*(s-b)*(s-c))`. Skriv ett program som
    frågar efter a,b och c samt beräknar och skriver ut triangelytan. Låt
    programmet även göra kontroller av a,b,c så att de angivna värdena verkligen
-   kan bilda en triangel. Lösning: [heronsFormel.py](grupdat/ran_heronsFormel.py).
+   kan bilda en triangel. Lösning: [heronsFormel.py](grupdat/ran_heronsformel.py).
 
 2. Pythonkramaren, uppgift 24: Skriv ett program som frågar efter ett antal
    sekunder och skriver ut hur många dagar, timmar, minuter och sekunder det
