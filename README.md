@@ -2,7 +2,7 @@ Filer från övningar och annat associerat med kursen DD1331 Grundläggande Prog
 
 ## Övningar
 
-[Övning 1](ex01/exercise_01.md)
+[Övning 1 (inkl. tabell över texteditorer)](ex01/exercise_01.md)
 
 Det kan även vara värt att kolla in mappen [felaktiga program](felaktiga_program), vilket innehåller
 ett gäng program som är fel på ett eller annat sätt. Kopiera programmen, försök hitta felen och fixa till dem

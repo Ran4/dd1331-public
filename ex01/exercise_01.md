@@ -6,7 +6,8 @@ Det finns en uppsjö med med olika text-editorer och [IDE](https://en.wikipedia.
 
 Egentligen spelar det inte så stor roll vad du använder, men det kan vara svårt att välja.
 
-Nedan följer en liten tabell över texteditorer:
+Nedan följer en liten tabell över texteditorer som finns till samtliga tre stora operativsystem
+(Windows, OS X och Linux).
 
 | Namn         | Kommando | Svårighetsgrad | Kan även köras i terminalen | Finns på Ubuntudatorerna i datorsalarna | Öppen mjukvara |
 |--------------|----------|----------------|-----------------------------|-----------------------------------------|----------------|
@@ -19,7 +20,19 @@ Nedan följer en liten tabell över texteditorer:
 Se till att ni inte använder "rich text"-editorer såsom Word/WordPad i Windows eller textEdit i OS X.
 Risken är annars stor att editorn ändrar på det ni skrivit in.
 
-Utöver detta finns det ett gäng IDE's, såsom PyCharm, Pythonplugin till Eclipse och Visual Studio, och mycket mer.
+Utöver detta finns det ett gäng IDE's, såsom PyCharm, Pythonplugin till Eclipse och Visual Studio, och mycket
+mycket mer.
+
+## Inställningar för texteditorer
+
+För att undvika problem under kursen så finns det vissa saker man bör se till att sin texteditor är inställd
+på.
+
+1. Se till att använda konsistent indentering (indrag). Nästan alla pythonprogram använder en intendering om 4 mellanslag: se till att ställa in din texteditor så att tab-knappen (eller motsvarande) intenderar med fyra mellanslag och ingenting annat.
+2. Om du använder windows, se till att din texteditor är inställd att använda "unix newlines" (till skillnad från "dos fileendings" eller liknadne)). Annars kan du få problem om någon annan öppnar din fil.
+3. Det kan vara praktiskt att aktivera syntax highlighting (text blir färgad beroende på innehållet)
+4. När ett program kraschar får du ofta en s.k. traceback som visar dig på vilket radnummer koden kraschade. Det kan därför vara praktiskt att aktivera radnummer.
+5. Se till att din fil sparas i utf-8, och ingenting annat. **Du ska --inte-- behöva skriva in '#encoding: utf-8' för att få ÅÄÖ att fungera!**.
 
 ## Det som gicks igenom under föreläsning var i grova drag:
 
