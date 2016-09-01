@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Det här programmet fungerar, men ger det väntat resultat?
+
 """
 
 number = input("Skriv in ett tal: ")
