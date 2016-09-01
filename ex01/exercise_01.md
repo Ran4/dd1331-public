@@ -1,25 +1,44 @@
 # Övning 1
 
-På första övningen kommer vi att gå igenom några enkla exempel på pythonprogrammering. Jag (Marcus)
-rekommenderar:
-1. Variabler och typer.
-2. Tilldelningar.
-3. Python interactive mode, python som miniräknare
-4. Funktioner
-5. Exempel ur boken
+## Texteditorer
+
+Det finns en uppsjö med med olika text-editorer och [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)s att välja på.
+
+Egentligen spelar det inte så stor roll vad du använder, men det kan vara svårt att välja.
+
+Nedan följer en liten tabell över texteditorer:
+
+| Namn         | Kommando | Svårighetsgrad | Kan även köras i terminalen | Finns på Ubuntudatorerna i datorsalarna | Öppen mjukvara |
+|--------------|----------|----------------|-----------------------------|-----------------------------------------|----------------|
+| Sublime text | subl     | Låg            | Nej                         | Nej                                     | Nej
+| Gedit        | gedit    | Låg            | Nej                         | Ja                                      | Ja
+| Vim          | vim      | Hög            | Ja                          | Ja                                      | Ja
+| Emacs        | emacs    | Hög            | Ja (`emacs -nw`)            | Ja                                      | Ja
+| Nano         | nano     | Låg            | Ja                          | Ja                                      | Ja
+
+Se till att ni inte använder "rich text"-editorer såsom Word/WordPad i Windows eller textEdit i OS X.
+Risken är annars stor att editorn ändrar på det ni skrivit in.
+
+Utöver detta finns det ett gäng IDE's, såsom PyCharm, Pythonplugin till Eclipse och Visual Studio, och mycket mer.
+
+## Det som gicks igenom under föreläsning var i grova drag:
+
+Variabler och typer.
+Tilldelningar.
+Python interactive mode, python som miniräknare
 
 Begrepp att öva på:
 * Inläsning, beräkning och utskrift.
 * Felkontroll av indata (med if-sats).
 * Repetition med while.
 
+Era repositories kommer att ligga på adresserna:
+* `https://gits-15.sys.kth.se/användarnamn-gruproglab1`
+* Exempel: `https://gits-15.sys.kth.se/ransin-gruproglabb1`
 
+## Förslag till uppgifter, från grupdaten, med lösningar:
 
-
-
-#### Förslag till uppgifter, från grupdaten:
-
-1. Om sidlängderna hos en triangle är a,b och c så kan triangelns yta beräknas
+1. Om sidlängderna hos en triangel är a,b och c så kan triangelns yta beräknas
    med hjälp av [Herons formel](http://sv.wikipedia.org/wiki/Herons_formel).
    Låt s = (a+b+c)/2 och A = sqrt(s*(s-a)*(s-b)*(s-c)). Skriv ett program som
    frågar efter a,b och c samt beräknar och skriver ut triangelytan. Låt

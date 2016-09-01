@@ -13,8 +13,9 @@ triangelytan.
 Låt programmet även göra kontroller av a,b,c så att de angivna värdena
 verkligen kan bilda en triangel. Lösning: [heronsFormel.py](heronsFormel.py).
 """
-
-print("Skriv in sidlängderna för din triangel: ")
+print("Det här programmet använder Herons formel för att beräkna arean på en triangel. Skriv in de tre sidlängderna a, b och c")
+print()
+input("Tryck enter för att börja mata in sidlängderna")
 a = int(input("a: "))
 b = int(input("b: "))
 c = int(input("c: "))
