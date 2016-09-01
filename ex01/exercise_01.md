@@ -1,12 +1,11 @@
 # Övning 1
 
-
-# Marcus says
-På första övningen kommer vi att gå igenom några enkla exempel på pythonprogrammering. Jag rekommenderar:
+På första övningen kommer vi att gå igenom några enkla exempel på pythonprogrammering. Jag (Marcus)
+rekommenderar:
 1. Variabler och typer.
 2. Tilldelningar.
-3. python interactive mode, python som miniräknare
-4. funktioner
+3. Python interactive mode, python som miniräknare
+4. Funktioner
 5. Exempel ur boken
 
 Begrepp att öva på:
