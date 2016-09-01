@@ -40,7 +40,7 @@ Era repositories kommer att ligga på adresserna:
 
 1. Om sidlängderna hos en triangel är a,b och c så kan triangelns yta beräknas
    med hjälp av [Herons formel](http://sv.wikipedia.org/wiki/Herons_formel).
-   Låt s = (a+b+c)/2 och A = sqrt(s*(s-a)*(s-b)*(s-c)). Skriv ett program som
+   Låt `s = (a+b+c)/2` och `A = sqrt(s*(s-a)*(s-b)*(s-c))`. Skriv ett program som
    frågar efter a,b och c samt beräknar och skriver ut triangelytan. Låt
    programmet även göra kontroller av a,b,c så att de angivna värdena verkligen
    kan bilda en triangel. Lösning: [heronsFormel.py](grupdat/ran_heronsFormel.py).
