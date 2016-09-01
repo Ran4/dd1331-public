@@ -1,7 +1,10 @@
-# dd1331-public
-Filer från övningar och annat associerat med kursen DD1331 Grundläggande Programmering
+Filer från övningar och annat associerat med kursen DD1331 Grundläggande Programmering.
 
+## Övningar
 
+[Övning 1](ex01/exercise_01.md)
+
+## Länkar
 KTHs GitHub: [https://gits-15.sys.kth.se/](https://gits-15.sys.kth.se/)
 
 Lägg till en SSH-nyckel till KTHs GitHub: [https://gits-15.sys.kth.se/settings/ssh](https://gits-15.sys.kth.se/settings/ssh)
