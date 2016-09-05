@@ -3,7 +3,7 @@
 description_text = "Skriv in ett antal tal. Avsluta med enter"
 print(description_text)
 
-sum_ = 0
+sum_ = 0 # Notera: sum är en inbyggd funktion i python!
 num_numbers = 0
 while True:
     raw_input = input("> ")
