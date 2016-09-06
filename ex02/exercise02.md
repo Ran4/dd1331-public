@@ -1,10 +1,11 @@
+
 ## Från förra veckan
 
 Kolla in [felaktiga-program-mappen](../felaktiga_program/)
 
 ## Uppgifter:
 
-1. Uppgift 5 från övning 1
+1. Skriv ett program som beräknar antalet termer som behövs för att summan av 1/i, i = 1..N ska nå ett visst mål.
 Lösning: ["../ex01/grupdat/ran\_antaltermer.py"]("../ex01/grupdat/ran_antaltermer.py")
 
 2. Skriv ett program som läser in ett antal tal och beräknar deras medelvärde.
