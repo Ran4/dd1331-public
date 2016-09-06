@@ -21,7 +21,7 @@ som den ska.
 
 Nedan följer ett mycket enkelt exempel på en funktion, och en testfunktion.
 
-```python3
+```python
 def count_in_list(seq, value):
     """Re-implementation of seq.count(value): returns the number of times value
     is found in sequence seq.
