@@ -51,6 +51,28 @@ värde. (Överkurs: rent tekniskt så kraschar assert faktiskt inte Python: om d
 AssertionError-undantag.  Om ett undantag inte fångas ("if the exception isn't caught") så kraschar python,
 och visar en s.k. traceback).
 
+## Man - manual
+
+Om du inte vet hur ett kommando fungerar i ett unix-liknande operativsystem
+(Linux eller OS X, eller i liknande miljö i windows, t.ex. i git bash) så kan man använda kommandot `man`.
+
+Exempel: om vi har glömt vad `-a`-argumentet gör i `git commit -a`, så kan vi ta reda på det genom att öppna
+en terminal och skriva in
+
+```
+man git commit
+```
+
+Vilket program som `man` öppnar manualen i varierar. På de flesta system öppnas man-sidorna i ett program som
+heter `less`, som fungerar lite som `cat`, men du har möjlighet att scrolla runt med pilarna (eller j/k,
+ctrl+d/u m.fl). Söka kan du göra genom att trycka på `/`, och nästa sökresultate fås genom att trycka på `n`
+
+Mer information om man kan passande fås genom att skriva `man man`.
+
+Värt att nämna är att beskrivningarna som ges i manualsidorna ofta är väldigt tekniska, och innehåller ofta få
+eller inga exempel, så det kan vara värt att kolla in andra källor. Men för att snabbt kolla in vilken
+parameter ett program tar så är det mycket användbart.
+
 ## Uppgifter:
 
 1. Skriv ett program som beräknar antalet termer som behövs för att summan av 1/i, i = 1..N ska nå ett visst mål.
