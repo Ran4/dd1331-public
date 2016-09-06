@@ -95,7 +95,8 @@ skriv ut "Sax Agaton".
     * Lösning på KTHs github som gjordes under övningen: [gits-15.sys.kth.se/ransin/wordswitcher](https://gits-15.sys.kth.se/ransin/wordswitcher)
 
 5. Pythonkramaren 53: funktion som avgör från ett personnummer om ett nummer är
-manligt eller kvinnligt. Lösning: [pk53.py](ran_pk53.py).
+manligt eller kvinnligt.
+    * Lösning: [pk53.py](ran_pk53.py).
     
 6. Pythonkramaren 55: Från en KTH-årskursbeteckning, t.ex. "F-08", beräkna hur
 många år som gått sedan personen började på KTH.
@@ -114,4 +115,4 @@ använder dubbel tilldelning:
 9. Beräkna (i program eller funktion) semifakultet: n*(n-2)*(n-4)*...*s där s
 är 1 eller 2 beroende på om n är udda eller jämn. Det går att lösa problemet
 utan att testa om n är udda eller jämn!
-Lösning: [semifakultet.py](semifakultet.py).
+    * Lösning: [semifakultet.py](semifakultet.py).
