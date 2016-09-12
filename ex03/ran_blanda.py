@@ -5,9 +5,9 @@ Skriv en funktion som konstruerar en slumpmässig blandning av en lista genom at
 Jämför med biblioteksfunktionen random.shuffle(alist). Vilken är skillnaden mellan hur resultatet (den slumpmässiga blandningen) ges?
 """
 
-def impure_shuffle_list(input_list):
-    """Shuffles a list input_list by randomly removing elements in li to a new
-    list, which is then returned
+def impure_shuffle_list_using_index(input_list):
+    """Like impure_shuffle_list, but manually calculates indices
+    (harder to understand and read!)
     """
     new_list = []
     
@@ -15,6 +15,18 @@ def impure_shuffle_list(input_list):
         random_index_in_element = random.randint(0, len(input_list) - 1)
         popped_element = input_list.pop(random_index_in_element)
         new_list.append(popped_element)
+    return new_list
+
+def impure_shuffle_list(input_list):
+    """Shuffles a list input_list by randomly removing elements in li to a new
+    list, which is then returned
+    """
+    new_list = []
+    
+    while input_list:
+        random_element = random.choice(input_list)
+        input_list.remove(random_element)
+        new_list.append(random_element)
     return new_list
 
 def main():
