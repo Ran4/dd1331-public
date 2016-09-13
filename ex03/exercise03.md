@@ -1,6 +1,7 @@
 ## Övning 3
 
 **Begrepp att öva på:**
+
 * Listor och funktioner
 * Textsträngar med anrop av strängmetoder
 * Att tänka på listor och textsträngar som objekt
@@ -8,8 +9,7 @@
 
 ## Uppgifter:
 
-1. Pythonkramaren 63: 
-Skriv en funktion som har en listparameter och ger True om alla element i listan är positva tal, False annars.
+1. Pythonkramaren 63: Skriv en funktion som tar en listparameter och ger True om alla element i listan är positiva tal, False annars.
     * Lösning: [krock.py](ran_krock.py)
 
 2. Skriv en funktion som konstruerar en slumpmässig blandning av en lista genom att slumpa fram ett element i taget, plocka ut det ur första listan och sätta in det i en annan lista som blir funktionens resultat. Lösning: blanda.py. I den här lösningen förstörs parameterlistan eftersom listelementen successivt plockas ut ur listan.
