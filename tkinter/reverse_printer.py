@@ -1,4 +1,11 @@
 import tkinter as tk
+"""This application contains four widgets:
+1. A text label (tk.Label) showing a description
+2. A text field (tk.Entry) to input text
+3. A button (tk.Button) that will update the label at (4) with the reverse text
+   of the text field in (2)
+4. A text label (tk.Label) that is updated with the button
+"""
 
 class Application(tk.Frame):
     def __init__(self, master=None):
