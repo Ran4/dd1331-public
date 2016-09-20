@@ -14,7 +14,8 @@ Dessutom kan det vara kul att ha något grafiskt att visa upp.
 
 Det finns många sätt, och vilket man borde använda beror på vilket problem man har.
 
-De två enklaste biblioteken är antagligen TKInter och Pygame. (...här kommer snart mer information...)
+De två enklaste biblioteken är antagligen TKInter och Pygame. Exempel på hur man använder tkinter finns i
+[tkinter-mappen](../tkinter/)
 
 ## Uppgifter:
 
