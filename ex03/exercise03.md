@@ -15,7 +15,7 @@ Dessutom kan det vara kul att ha något grafiskt att visa upp.
 Det finns många sätt, och vilket man borde använda beror på vilket problem man har.
 
 De två enklaste biblioteken är antagligen TKInter och Pygame. Exempel på hur man använder tkinter finns i
-[tkinter-mappen](../tkinter/)
+[tkinter-mappen](../tkinter/). Ett pygame-exempelprogram finns [här](../pygame/hornet_example/)
 
 ## Uppgifter:
 
