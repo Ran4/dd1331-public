@@ -28,19 +28,19 @@ def horner(coeff_values, x):
 
 a. Ange komplexiteten för varje algoritm räknat i **antal multiplikationer**.
 
-N är polynomets gradtal.
+* N är polynomets gradtal.
 
-Ge svaret som O(logn), O(n) eller liknande.
+* Ge svaret som O(logn), O(n) eller liknande.
 
 b. En helt annan algoritm implementerades och kördes för olika problemstorlekar, n.
 
-Med n = 100 tog körningen 0.21 sekunder, för n = 200 tog den 1.7 sekunder och för n = 400 gick det åt 14.1 sekunder.
+* Med n = 100 tog körningen 0.21 sekunder, för n = 200 tog den 1.7 sekunder och för n = 400 gick det åt 14.1 sekunder.
 
-Konstruktören av algoritmen hävdar optimistiskt att dess tidskomplexitet är O(n^2).
+* Konstruktören av algoritmen hävdar optimistiskt att dess tidskomplexitet är O(n^2).
 
-Är det rimligt? Vilken tidskomplexitet tror du att det är?
+* Är det rimligt? Vilken tidskomplexitet tror du att det är?
 
-Motivera svaret med hjälp av de angivna körtiderna.
+* Motivera svaret med hjälp av de angivna körtiderna.
 
 ### SVAR:
 
