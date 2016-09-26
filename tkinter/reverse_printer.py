@@ -25,8 +25,7 @@ class Application(tk.Frame):
         self.description_label = tk.Label(self, text=DESCRIPTION_TEXT)
         self.description_label.pack()
         
-        self.input_entry = tk.Entry(self,
-            textvariable=self.input_text_variable)
+        self.input_entry = tk.Entry(self, textvariable=self.input_text_variable)
         self.input_entry.pack()
         
         self.action_button = tk.Button(self, text=ACTION_BUTTON_TEXT,
