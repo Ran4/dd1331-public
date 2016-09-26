@@ -1,6 +1,6 @@
 Antag att polynom representeras med listor så att första elementet är koefficienten för högstagradstermen och sista elementet är den konstanta termen.
 
-Listan $[a_n, a_{n-1}, ... a_0]$ är polynomet $a_nx^n + a_{n-1}x^{n-1} + ... + a_1 x + a_0$
+Listan [a_{n}, a_{n-1}, ... a_{0}] är polynomet a_{n} x^n + a_{n-1} x^{n-1} + ... + a_1 x + a_{0}.
 
 Följande två algoritmer beräknar polynomets värde för något värde på x:
 
