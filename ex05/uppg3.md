@@ -23,14 +23,21 @@ def horner(coeff_values, x):
     return result
 ```
 
-a. * polyval:
-        * inre loop: n+1 multiplikationer ~ (för stora n:) n
-        * yttre loop: len(coeff\_values) - 1 ~ len(coeff\_values) ~ (för stora n:) n
-        * -> inre * yttre = n * n == n**2
-        * svar: O(n**2)
-   * horner: 
-        * inre och enda loop: len(coeff_values) multiplikationer ~ n
-        * svar: O(n)
+a1. Polyval:
 
-b. 
+* inre loop: n+1 multiplikationer ~ (för stora n:) n
+    
+* yttre loop: `len(coeff_values) - 1` ~ `len(coeff_values)` (för stora `coeff_values`)
 
+* Inre loopen körs n * (n-1) * (n-2) ... * 1 ggr. =  ((n + 1) / 2)^2
+* För stora n: (n / 2)^2 ggr., vi bryr oss inte om  konstanter -> n^2    
+* **SVAR:** O(n^2)
+        
+a2. Horner: 
+
+* inre och enda loop: len(coeff_values) multiplikationer
+* svar: O(n)
+
+b.  ...
+
+* ...
