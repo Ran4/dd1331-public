@@ -10,6 +10,8 @@ Filer från övningar och annat associerat med kursen DD1331 Grundläggande Prog
 
 [Övning 4 (samt grafik, svårare rekursionsuppgift)](ex04/ex04.md)
 
+[Övning 5](ex05/ex05.md)
+
 Det kan även vara värt att kolla in mappen [felaktiga program](felaktiga_program), vilket innehåller
 ett gäng program som är fel på ett eller annat sätt. Kopiera programmen, försök hitta felen och fixa till dem
 så att programmen gör som de ska.
